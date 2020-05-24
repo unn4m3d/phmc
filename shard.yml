@@ -1,0 +1,42 @@
+name: phmc
+version: 0.1.0
+
+authors:
+  - unn4m3d <smelnikov871@gmail.com>
+
+targets:
+  phmc:
+    main: src/phmc.cr
+
+crystal: 0.34.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.21
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.5.1
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.1
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 0.7.0
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.6.2
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.4.0
+  kilt:
+    github: jeromegn/kilt
+    version: ~> 0.6.0
+  slang:
+    github: jeromegn/slang
+    version: ~> 1.7.1
+  minestat:
+    github: unn4m3d/minestat
+  jbuilder:
+    github: shootingfly/jbuilder
+    version: ~> 0.3.0
