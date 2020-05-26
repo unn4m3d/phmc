@@ -76,10 +76,6 @@ shards:
     github: unn4m3d/minestat
     commit: a1049e1a83bc1047291a4fc927410a665252941d
 
-  mineutils:
-    github: unn4m3d/mineutils
-    commit: 2a941060b1207153098a3df20c86b5bf6635b87e
-
   openssl_ext:
     github: stakach/openssl_ext
     version: 1.2.0
@@ -107,10 +103,6 @@ shards:
   timeout:
     github: ctiapps/timeout
     commit: 40ff6f12bd55003b86b5e8f6a91513061dda92c8
-
-  version:
-    github: unn4m3d/version
-    version: 0.1.0
 
   wordsmith:
     github: luckyframework/wordsmith

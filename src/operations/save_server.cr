@@ -3,6 +3,4 @@ class SaveServer < Server::SaveOperation
   # https://luckyframework.org/guides/database/validating-saving#perma-permitting-columns
   #
   # permit_columns column_1, column_2
-
-  permit_columns name, short_name, version, address, port
 end

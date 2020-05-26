@@ -40,5 +40,3 @@ dependencies:
   jbuilder:
     github: shootingfly/jbuilder
     version: ~> 0.3.0
-  mineutils:
-    github: unn4m3d/mineutils
