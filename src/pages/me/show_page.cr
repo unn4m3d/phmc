@@ -1,7 +1,9 @@
 class Me::ShowPage < MainLayout
   def content
     h1 "This is your profile"
+    h3 "Id : #{@current_user.not_nil!.id}"
     h3 "Email:  #{@current_user.not_nil!.email}"
+    h3 "Role: #{@current_user.not_nil!.role}"
     helpful_tips
   end
 

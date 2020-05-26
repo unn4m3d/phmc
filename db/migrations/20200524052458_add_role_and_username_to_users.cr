@@ -15,9 +15,9 @@ class AddRoleAndUsernameToUsers::V20200524052458 < Avram::Migrator::Migration::V
     #
     # execute "CREATE UNIQUE INDEX things_title_index ON things (title);"
 
-    alter table_for User do
-      add role : String
-      add username : String
+    alter :users do
+      add role : String, default: ""
+      add username : String, fill_existing_with: ""
     end
   end
 
