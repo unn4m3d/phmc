@@ -1,0 +1,50 @@
+2020-05-23 20:14:52,448 Thread-0 > at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1085)
+2020-05-23 20:14:52,448 Thread-0 > at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1015)
+2020-05-23 20:14:52,448 Thread-0 > at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1054)
+2020-05-23 20:14:52,449 Thread-0 > at org.tlauncher.tlauncher.rmo.TLauncher.main(TLauncher.java:502)
+2020-05-23 20:14:52,449 Thread-0 > 
+2020-05-23 20:14:52,458 Thread-0 > [Updater] Requesting an update...
+2020-05-23 20:14:52,460 Thread-0 > [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_1.0.json
+2020-05-23 20:14:52,461 Thread-0 > [Updater] Making request: http://repo.tlauncher.org/update/lch/update_1.0.json?version=2.22&client=ef3b10f4-597b-4eac-a6c6-1759c108b4f5
+2020-05-23 20:14:52,630 Thread-0 > [Updater] Request time: 166 ms
+2020-05-23 20:14:52,630 Thread-0 > [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_1.0.json
+2020-05-23 20:14:59,234 Thread-0 > [TlauncherUtil]  send log files
+2020-05-23 20:18:29,993 main 
+2020-05-23 20:18:29,994 main -------------------------------------------------------------------
+2020-05-23 20:18:30,212 main [Bootstrapper] createLauncher
+2020-05-23 20:18:30,213 main [Bootstrapper] validate files
+2020-05-23 20:18:30,505 main [Bootstrapper] end validated files
+2020-05-23 20:18:30,506 main [Bootstrapper] Starting launcher...
+2020-05-23 20:18:31,002 Thread-0 > [TLAUNCHER][STATIC] initialize inner config
+2020-05-23 20:18:31,310 Thread-0 > [Loading] INITALIZING
+2020-05-23 20:18:31,745 Thread-0 > [DEBUG] -----  http://ru-m.org : 301
+2020-05-23 20:18:32,079 Thread-0 > [DEBUG] -----  http://repo.tlauncher.org : 200
+2020-05-23 20:18:33,220 Thread-0 > [DEBUG] -----  https://tlauncher.org : 200
+2020-05-23 20:18:34,028 Thread-0 > Starting TLauncher 2.22
+2020-05-23 20:18:34,028 Thread-0 > For more information, visit https://tlauncher.org/
+2020-05-23 20:18:34,036 Thread-0 > Machine info: Linux 5.6.13-arch1-1 x64, Java 1.8.0_242 x64, 11867 MB RAM
+2020-05-23 20:18:34,075 Thread-0 > Startup time: 23.05.2020 20:18:34
+2020-05-23 20:18:34,075 Thread-0 > ---
+2020-05-23 20:18:34,416 Thread-0 > [DEBUG] -----  http://page.tlauncher.org : 200
+2020-05-23 20:18:34,584 Thread-0 > [Loading] LOADING_CONFIGURATION
+2020-05-23 20:18:34,584 Thread-0 > Loading configuration from file: /home/unn4m3d/.tlauncher/tlauncher-2.0.properties
+2020-05-23 20:18:34,593 Thread-0 > [Configuration] Constant values: {}
+2020-05-23 20:18:34,625 Thread-0 > Selected locale: ru_RU
+2020-05-23 20:18:34,712 Thread-0 > [Loading] LOADING_CONSOLE
+2020-05-23 20:18:34,968 Thread-0 > [Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+2020-05-23 20:18:35,184 Thread-0 > 
+2020-05-23 20:18:35,206 Thread-0 > [Downloader2] Loaded configuration: good
+2020-05-23 20:18:35,351 Thread-0 > [Updater] Requesting an update...
+2020-05-23 20:18:35,358 Thread-0 > [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_1.0.json
+2020-05-23 20:18:35,361 Thread-0 > [Updater] Making request: http://repo.tlauncher.org/update/lch/update_1.0.json?version=2.22&client=ef3b10f4-597b-4eac-a6c6-1759c108b4f5
+2020-05-23 20:18:35,574 Thread-0 > [Updater] Request time: 217 ms
+2020-05-23 20:18:35,575 Thread-0 > [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_1.0.json
+2020-05-23 20:18:36,201 Thread-0 > The program 'java' received an X Window System error.
+2020-05-23 20:18:36,201 Thread-0 > This probably reflects a bug in the program.
+2020-05-23 20:18:36,201 Thread-0 > The error was 'RenderBadPicture (invalid Picture parameter)'.
+2020-05-23 20:18:36,201 Thread-0 >   (Details: serial 884 error_code 143 request_code 139 minor_code 7)
+2020-05-23 20:18:36,202 Thread-0 >   (Note to programmers: normally, X errors are reported asynchronously;
+2020-05-23 20:18:36,202 Thread-0 >    that is, you will receive the error a while after causing it.
+2020-05-23 20:18:36,202 Thread-0 >    To debug your program, run it with the --sync command line
+2020-05-23 20:18:36,202 Thread-0 >    option to change this behavior. You can then get a meaningful
+2020-05-23 20:18:36,202 Thread-0 >    backtrace from your debugger if you break on the gdk_x_error() function.)
