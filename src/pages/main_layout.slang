@@ -19,8 +19,8 @@ body
                             | Скачать лаунчер
 
                         .dropdown-menu aria-labelledby="nav-launcher-toggle"
-                            a href="/launcher.exe" Windows
-                            a href="/launcher.jar" Cross-platform
+                            a.dropdown-item href="/launcher.exe" Windows
+                            a.dropdown-item href="/launcher.jar" Cross-platform
 
                     li.nav-item.dropdown
                         a.nav-link.dropdown-toggle#nav-profile-toggle href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
