@@ -15,6 +15,14 @@ body
                         a.nav-link href="/" Home
 
                     li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle#nav-launcher-toggle href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            | Скачать лаунчер
+
+                        .dropdown-menu aria-labelledby="nav-launcher-toggle"
+                            a href="/launcher.exe" Windows
+                            a href="/launcher.jar" Cross-platform
+
+                    li.nav-item.dropdown
                         a.nav-link.dropdown-toggle#nav-profile-toggle href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                             - if current_user
                                 | Hello, user
@@ -28,6 +36,7 @@ body
                             - else
                                 - link "Login", to: SignIns::New, class: "dropdown-item"
                                 - link "Register", to: SignUps::New, class: "dropdown-item"
+
 
                     li class=nav_item_class(:servers)
                         - link "Servers", to: Servers::Index, class: "nav-link"
