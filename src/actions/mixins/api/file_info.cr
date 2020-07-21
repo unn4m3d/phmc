@@ -1,6 +1,6 @@
 module Api::FileInfo
   protected def public_root
-    "#{File.dirname(__FILE__)}/../../../../../public"
+    "#{File.dirname(__FILE__)}/../../../../public"
   end
 
   protected def digest(path, name = "SHA256")

@@ -1,0 +1,14 @@
+[Unit]
+Description=Lucky
+After=nginx.service
+
+[Service]
+WorkingDirectory=/srv/phmc
+Type=simple
+User=unn4m3d
+Group=unn4m3d
+ExecStart="/srv/phmc/start.sh"
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

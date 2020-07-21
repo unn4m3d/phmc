@@ -9,13 +9,15 @@ class Api::Yggdrasil::Join < ApiAction
     if session.nil?
       json({error: "Bad login", errorMessage: "Bad login"})
     else
-      SaveSession.update(session, server_id: j_req.serverId) do |op, s|
+      result = SaveSession.update(session, server_id: j_req.serverId) do |op, s|
         if s
           json({id: j_req.selectedProfile, name: session.user.username})
         else
           json({error: "Internal error", errorMessage: "Cannot save session"})
         end
       end
+      puts result
+	result
     end
   end
 end
