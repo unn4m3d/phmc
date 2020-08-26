@@ -8,7 +8,7 @@ module Api::FileInfo
     File.open(path) do |f|
       d.update f
     end
-    d.hexdigest
+    d.final.hexstring
   end
 
   protected def file_info(path, root)

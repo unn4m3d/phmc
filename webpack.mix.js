@@ -47,6 +47,7 @@ mix
   .js("src/js/app.js", "public/js")
   // SASS entry file. Uses autoprefixer automatically.
   .sass("src/css/app.scss", "public/css")
+  .coffee("src/js/mon.coffee", "public/js")
   // Customize postCSS:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/css-preprocessors.md#postcss-plugins
   .options({

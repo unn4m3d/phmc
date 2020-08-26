@@ -19,7 +19,7 @@
 
 // Default Lucky styles.
 // Delete these when you're ready to bring in your own CSS.
-body {
+/*body {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
@@ -64,4 +64,9 @@ textarea {
   font-weight: 900;
   margin: 9px 0;
   padding: 6px 9px;
+}*/
+
+.ph-side-panel {
+  border: solid 1px #232323;
+  border-radius: 5px;
 }

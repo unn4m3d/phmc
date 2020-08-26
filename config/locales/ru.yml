@@ -1,0 +1,39 @@
+ru:
+  phmc:
+    brand: PHMC
+    menu:
+      greeting:
+        user: Привет, %s!
+        guest: Привет, гость!
+      home: Главная
+      launcher:
+        heading: Скачать лаунчер
+        link:
+          windows: Windows (.EXE)
+          other: Cross-platform (.JAR)
+      login: Войти
+      logout: Выйти
+      profile: Профиль
+      servers: Сервера
+      sign_up: Регистрация
+    sign_up:
+      heading: Регистрация
+      username: Имя пользователя
+      email: Электронная почта
+      password: Пароль
+      password_confirmation: Подтверждение пароля
+      submit: Зарегистрироваться
+    sign_in:
+      heading: Вход
+      login: Имя пользователя или e-mail
+      password: Пароль
+      remember: Запомнить меня
+    monitoring:
+      heading: Мониторинг
+      online: Онлайн
+      offline: Оффлайн
+      players: '%d / %d игроков'
+    
+
+
+
