@@ -1,6 +1,6 @@
 ru:
   phmc:
-    brand: PHMC
+    brand: Unn4m3d Tech
     menu:
       greeting:
         user: Привет, %s!
@@ -33,6 +33,15 @@ ru:
       online: Онлайн
       offline: Оффлайн
       players: '%d / %d игроков'
+    index:
+      heading: Добро пожаловать в Unn4m3d Tech!
+      lead: Здесь вы найдете теплые ламповые сервера Minecraft
+      subtitle:
+        user: Вы уже зарегистрированы! Осталось только скачать лаунчер и начать играть!
+        guest: Зарегистрируйтесь или войдите, скачайте лаунчер и начинайте играть
+      launcher: 
+        windows: Лаунчер (Windows)
+        other: Лаунчер (Cross-platform)
     
 
 

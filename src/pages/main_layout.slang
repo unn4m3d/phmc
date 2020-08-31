@@ -53,34 +53,28 @@ body
     .container-fluid
         .row
             .col-8
-                - content
+                .container
+                    - content
             .col-4
                 .row
                     .container-fluid
                         .card
-                            img.card-img-top src="default-profile-card.png" alt="#TODO"
                             .card-body
-                                h5.card-title
+                                h3.card-title
                                     = t("phmc.menu.profile")
                                 .card-text
-                                    ul.list-group
-                                        - if current_user
-                                            li.list-group-item
-                                                - link t("phmc.menu.profile"), to: Me::Show, class: "dropdown-item"
-                                            li.list-group-item
-                                                - link t("phmc.menu.logout"), to: SignIns::Delete, class: "dropdown-item"
-                                        - else
-                                            li.list-group-item
-                                                - link t("phmc.menu.login"), to: SignIns::New, class: "dropdown-item"
-                                            li.list-group-item    
-                                                - link t("phmc.menu.sign_up"), to: SignUps::New, class: "dropdown-item"
+                                    - if current_user
+                                        - link t("phmc.menu.profile"), to: Me::Show, class: "btn btn-primary"
+                                        - link t("phmc.menu.logout"), to: SignIns::Delete, class: "btn btn-secondary"
+                                    - else
+                                        - link t("phmc.menu.login"), to: SignIns::New, class: "btn btn-primary"
+                                        - link t("phmc.menu.sign_up"), to: SignUps::New, class: "btn btn-secondary"
 
                 .row
                     .container-fluid
                         .card
-                            img.card-img.top src="default-monitoring-card" alt="#TODO Monitoring"
                             .card-body
-                                h5.card-title
+                                h3.card-title
                                     = t("phmc.monitoring.heading")
                                 .card-text#tsmon
                                     | Monitoring is loading...

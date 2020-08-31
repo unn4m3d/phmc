@@ -6,6 +6,7 @@ class MineStatSerializer < BaseSerializer
 
   def render
     Jbuilder.new do |json|
+      json.link "/servers/#{@server.id}"
       json.name @server.name
       json.short_name @server.short_name
       json.version @server.version

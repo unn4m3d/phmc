@@ -28,7 +28,7 @@ api_create_progress = (elem,sdata) ->
   id = "server-#{sdata.name}"
   elem.append $("<div class='text-xs-center' id='#{id}'></div>").html("<a href=\"#{sdata.link}\">#{sdata.name}</a> #{api_ver_badge(sdata.version)} #{api_badge(sdata)}")
   if sdata.online
-    elem.append $("<progress class='progress' value='#{sdata.players.replace(/[^0-9]/g,'')}' max='#{sdata.max.replace(/[^0-9]/g,'')}' aria-describedby='#{id}' />")
+    elem.append $("<progress class='progress' value='#{sdata.players.toString().replace(/[^0-9]/g,'')}' max='#{sdata.max.toString().replace(/[^0-9]/g,'')}' aria-describedby='#{id}' />")
   else
     elem.append $("<progress class='progress server-full' value='1' max='1' aria-describedby='#{id}' />")
 
@@ -58,7 +58,7 @@ api_draw = (json) ->
     console.log("Monitoring enabled")
     console.log json
     mondiv.empty()
-    mondiv.append($("<h3>Мониторинг</h3>"))
+    #mondiv.append($("<h3>Мониторинг</h3>"))
     mondiv.append("<!-- Generated in app/assets/javascripts/home.coffee -->")
     if json.servers? && json.servers.length > 0
       for serv in json.servers

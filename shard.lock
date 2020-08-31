@@ -85,12 +85,16 @@ shards:
     commit: a1049e1a83bc1047291a4fc927410a665252941d
 
   mineutils:
-    github: unn4m3d/mineutils
-    commit: 2a941060b1207153098a3df20c86b5bf6635b87e
+    path: ../mineutils
+    version: 0.1.0
 
   openssl_ext:
     github: stakach/openssl_ext
     version: 1.2.2
+
+  pcf-parser:
+    github: l3kn/pcf-parser
+    version: 0.1.1
 
   pg:
     github: will/crystal-pg
@@ -107,6 +111,18 @@ shards:
   slang:
     github: jeromegn/slang
     version: 1.7.1
+
+  stumpy_core:
+    github: stumpycr/stumpy_core
+    version: 1.9.1
+
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: 4.5.2
+
+  stumpy_utils:
+    github: stumpycr/stumpy_utils
+    version: 0.5.1
 
   teeplate:
     github: luckyframework/teeplate

@@ -9,7 +9,7 @@ module Translator
   end
 
   def t(str, count : Int32? = nil, *args)
-    puts "Translating #{str}"
+    #puts "Translating #{str}"
     if args.empty?
       I18n.translate(str, locale, count)
     else
